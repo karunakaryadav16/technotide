@@ -1,0 +1,93 @@
+.overall_container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form_submit_container{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+}
+
+
+.form_container{
+    display: flex;
+    flex-direction: column ;
+    row-gap: 5px;
+
+}
+
+.add_user_button{
+    background-color:green;
+    color:white;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
+
+.edit_user_from_conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.label_container{ 
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: starts;
+}
+
+.users_list_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.users_list_container_button{
+    background-color: red;
+    color:white;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.users_list_container_edit_button{
+    background-color: green;
+    color:white;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.user_list_overall_container{
+
+
+ overflow-y: scroll;
+ height: 300px;
+
+
+
+}
+
